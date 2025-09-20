@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-
 <link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style">
-<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" media="print" onload="this.media='all'">
+
 
 <link rel="preload" href="./assets/style.css" as="style">
 <link rel="stylesheet" href="./assets/style.css" media="print" onload="this.media='all'">
@@ -15,7 +15,10 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Spectral:ital,wght@1,400;1,800&display=swap" as="style">
+
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Spectral:ital,wght@1,400;1,800&display=swap" as="style">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Spectral:ital,wght@1,400;1,800&display=swap">
 
 
 	<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux : portraits, mariages, concerts, entreprises.">
@@ -125,7 +128,6 @@
   sizes="100vw"
   class="d-block w-100"
   alt="Un homme traverse une grande route en costume sombre"
- 
   width="1600"
   height="740"
   >
@@ -141,11 +143,12 @@
     ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp 3200w,
     ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp 5000w" 
   sizes="100vw"
+  loading="lazy"
   alt="Foule pendant un concert" 
   class="d-block w-100" 
-
-  width="6000"
-  height="2775">
+  width="1600"
+  height="740"
+ >
 
 			</div>
 			<div class="carousel-item">
@@ -159,8 +162,8 @@
     ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp 5653w"
   sizes="100vw"
   class="d-block w-100"
+  loading="lazy"
   alt="Un couple qui s’embrasse lors d’un mariage"
- 
   width="1637"
   height="757"
   >

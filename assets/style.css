@@ -111,6 +111,13 @@ img {
   justify-content: center;
 }
 
+
+.carousel-item img {
+  aspect-ratio: 16 / 9; /* ou le vrai ratio de tes images */
+  object-fit: cover;
+}
+
+
 .nav-pills .nav-link {
   color: #000;
 }
